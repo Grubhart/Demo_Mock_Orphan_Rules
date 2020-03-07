@@ -29,7 +29,7 @@ public class OrphanRulesTest {
     public void testOrphanRule(){
 
         LegacyObject legacy = new LegacyObject(external);
-        when(external.getSomething(4)).thenReturn(4);
+        when(external.getSomething(4)).thenReturn(4);  // <------  Orphan Rule
 
 
         int returnValue = legacy.legacyMethod(4);
