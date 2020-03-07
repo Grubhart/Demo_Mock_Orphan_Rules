@@ -7,7 +7,7 @@ Demo Project to show Mock Orphan rules
 
 ## Comments
 
-check OrphanRulesTest Class to see a test with an orphan class
+check OrphanRulesTest Class to see a test with an orphan mock rule
 
 check ExternalObjectWithOrphanRule to check the class with changed method 
 
